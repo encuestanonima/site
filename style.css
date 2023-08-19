@@ -7,43 +7,12 @@ body{
     text-align: center;
 }
 
-/*.answer-button {
-    background-color: red;
+.answer-button {
+    background-color: black;
     color: white;
     border-style: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-*/
-
-/*.answer-button {
-    background-color: gold;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-.answer-button.clicked {
-    background-color: green;
-}
-/*.answer-button.clicked {
-    background-color: green;
-}*/
-
-/*.question .answer-button:not(.disabled) {
-    background-color: red;
-}*/
-
-/* ... (existing styles) ... */
-
-/* ... (existing styles) ... */
-
-.answer-button {
-    background-color: gold;
-    color: white;
-    border: none;
-    padding: 10px 20px;
+    border: 2px solid white;
+    padding: 2px 4px;
     cursor: pointer;
 }
 
