@@ -5,26 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuesta Anonima</title>
     <link rel="stylesheet" href="style.css">
+    <script src="button.js"></script>
 </head>
 <body>
     <h1 class="title">Cuestionario</h1>
     
     <div class="question0">
         <p>1. ¿Alguna vez has visto contenido para adultos (pornografia)?</p>
-        <button class="answer-button" onclick="recordAnswer('Si')">Yes</button>
-        <button class="answer-button" onclick="recordAnswer('No')">No</button>
+        <button class="answer-button" onclick="recordAnswer(this)">Yes</button>
+        <button class="answer-button" onclick="recordAnswer(this)">No</button>
     </div>
     
     <div class="question1">
         <p>2. ¿Has visto contenido gore?</p>
-        <button class="answer-button" onclick="recordAnswer('Si')">Yes</button>
-        <button class="answer-button" onclick="recordAnswer('No')">No</button>
+        <button class="answer-button" onclick="recordAnswer(this)">Yes</button>
+        <button class="answer-button" onclick="recordAnswer(this)">No</button>
     </div>
     
     <div class="question2">
         <p>3. ¿Tienes pareja en este momento?</p>
-        <button class="answer-button" onclick="recordAnswer('Si')">Yes</button>
-        <button class="answer-button" onclick="recordAnswer('No')">No</button>
+        <button class="answer-button" onclick="recordAnswer(this)">Yes</button>
+        <button class="answer-button" onclick="recordAnswer(this)">No</button>
     </div>
     
 </body>
