@@ -7,19 +7,18 @@ body{
     text-align: center;
 }
 
-
-.answer-button {
+.answer-button{
     background-color: gold;
     color: white;
     border-style: none;
 }
 
-.answer-button.clicked {
+.answer-button.clicked{
     background-color: green;
     color: white;
 }
 
-.answer-button:not(.clicked) {
+.answer-button:not(.clicked){
     background-color: black;
     color: white;
 }
