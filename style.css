@@ -4,9 +4,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
-
 body{
     font-family: 'Source Code Pro', monospace;
     background-color: black;
@@ -27,6 +26,22 @@ body{
     background-color: green;
 }
 
+.submit-button__clic{
+    background-color: black;
+    color: white;
+    border-style: none;
+    border: 2px solid white;
+    padding: 2px 4px;
+    cursor:  pointer;
+}
+
+.submit-button__click {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 2px 4px;
+    cursor: pointer;
+}
 
 
-
+/* ... (existing styles) ... */
